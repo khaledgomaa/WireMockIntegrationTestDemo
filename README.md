@@ -97,8 +97,6 @@ docker-compose -f docker-compose-local.yml up -d
 docker-compose up -d
 ```
 
-The API will be available at `https://localhost:5001` (or the configured port).
-
 ### 2. Run Integration Tests
 ```bash
 cd WireMock.IntegrationTests
