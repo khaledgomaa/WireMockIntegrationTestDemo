@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/users"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 1,
+        "name": "Emily Johnson",
+        "company": "ABC Corporation",
+        "username": "emily_johnson",
+        "email": "emily.johnson@abccorporation.com",
+        "address": "123 Main St",
+        "zip": "12345",
+        "state": "California",
+        "country": "USA",
+        "phone": "+1-555-123-4567",
+        "photo": "https://loremflickr.com/1713/787?lock=8160151724855441"
+      },
+      {
+        "id": 2,
+        "name": "Michael Williams",
+        "company": "XYZ Corp",
+        "username": "michael_williams",
+        "email": "michael.williams@xyzcorp.com",
+        "address": "456 Elm Ave",
+        "zip": "67890",
+        "state": "New York",
+        "country": "USA",
+        "phone": "+1-555-987-6543",
+        "photo": null
+      }
+    ]
+  }
+} 
