@@ -97,15 +97,9 @@ docker-compose -f docker-compose-local.yml up -d
 docker-compose up -d
 ```
 
-### 2. Run the Application
-```bash
-cd WireMock
-dotnet run
-```
-
 The API will be available at `https://localhost:5001` (or the configured port).
 
-### 3. Run Integration Tests
+### 2. Run Integration Tests
 ```bash
 cd WireMock.IntegrationTests
 dotnet test
